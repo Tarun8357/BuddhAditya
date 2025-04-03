@@ -1,0 +1,485 @@
+2025-04-03 10:48:44 - [main] - INFO - c.b.userauth.LoginApplication - Starting LoginApplication using Java 17.0.14 with PID 12820 (C:\Users\lenovo\Desktop\MyProjects\login\target\classes started by lenovo in C:\Users\lenovo\Desktop\MyProjects)
+2025-04-03 10:48:44 - [main] - DEBUG - c.b.userauth.LoginApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03 10:48:44 - [main] - INFO - c.b.userauth.LoginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-03 10:48:46 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 10:48:46 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 140 ms. Found 2 JPA repository interfaces.
+2025-04-03 10:48:47 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-03 10:48:47 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 10:48:47 - [main] - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-03 10:48:47 - [main] - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03 10:48:48 - [main] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-03 10:48:48 - [main] - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3453 ms
+2025-04-03 10:48:48 - [main] - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 10:48:48 - [main] - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03 10:48:48 - [main] - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-03 10:48:49 - [main] - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 10:48:49 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-03 10:48:50 - [main] - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@553fbe94
+2025-04-03 10:48:50 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-03 10:48:50 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 10:48:50 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-03 10:48:50 - [main] - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 10:48:52 - [main] - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 10:48:52 - [main] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 10:48:53 - [main] - DEBUG - c.b.userauth.jwtutils.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-04-03 10:48:53 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Initializing Password Encoder (BCrypt)
+2025-04-03 10:48:53 - [main] - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 10:48:53 - [main] - INFO - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-03 10:48:53 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Configuring security filter chain
+2025-04-03 10:48:54 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 10:48:54 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 10:48:54 - [main] - INFO - c.b.userauth.LoginApplication - Started LoginApplication in 10.659 seconds (process running for 11.975)
+2025-04-03 10:54:40 - [http-nio-8080-exec-2] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 10:54:40 - [http-nio-8080-exec-2] - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-03 10:54:40 - [http-nio-8080-exec-2] - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-03 10:54:41 - [http-nio-8080-exec-2] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: Default role USER not found
+2025-04-03 10:55:56 - [http-nio-8080-exec-4] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: Default role USER not found
+2025-04-03 10:57:16 - [http-nio-8080-exec-7] - INFO - c.b.userauth.utils.LoggerUtil - User registered successfully: admin
+2025-04-03 10:57:16 - [http-nio-8080-exec-7] - INFO - c.b.userauth.utils.LoggerUtil - New user registered: admin
+2025-04-03 10:57:16 - [http-nio-8080-exec-7] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: Cannot deserialize value of type `java.lang.String` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.buddhaditya.userauth.entities.response.RegisterResponseDTO["roles"]->java.util.HashSet[0])
+2025-04-03 11:03:53 - [pool-2-thread-1] - DEBUG - c.b.userauth.utils.LoggerUtil - Cleaning token cache. Current size: 0
+2025-04-03 11:18:53 - [pool-2-thread-1] - DEBUG - c.b.userauth.utils.LoggerUtil - Cleaning token cache. Current size: 0
+2025-04-03 11:33:53 - [pool-2-thread-1] - DEBUG - c.b.userauth.utils.LoggerUtil - Cleaning token cache. Current size: 0
+2025-04-03 11:41:09 - [SpringApplicationShutdownHook] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 11:41:09 - [tomcat-shutdown] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-03 11:41:09 - [SpringApplicationShutdownHook] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 11:41:09 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-03 11:41:09 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-03 11:41:18 - [main] - INFO - c.b.userauth.LoginApplication - Starting LoginApplication using Java 17.0.14 with PID 12708 (C:\Users\lenovo\Desktop\MyProjects\login\target\classes started by lenovo in C:\Users\lenovo\Desktop\MyProjects)
+2025-04-03 11:41:18 - [main] - DEBUG - c.b.userauth.LoginApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03 11:41:18 - [main] - INFO - c.b.userauth.LoginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-03 11:41:20 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 11:41:20 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 2 JPA repository interfaces.
+2025-04-03 11:41:21 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-03 11:41:21 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 11:41:21 - [main] - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-03 11:41:21 - [main] - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03 11:41:21 - [main] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-03 11:41:21 - [main] - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3179 ms
+2025-04-03 11:41:22 - [main] - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 11:41:22 - [main] - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03 11:41:22 - [main] - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-03 11:41:23 - [main] - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 11:41:23 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-03 11:41:23 - [main] - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fee14b
+2025-04-03 11:41:23 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-03 11:41:23 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 11:41:23 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-03 11:41:24 - [main] - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 11:41:26 - [main] - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 11:41:26 - [main] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 11:41:27 - [main] - DEBUG - c.b.userauth.jwtutils.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-04-03 11:41:28 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Initializing Password Encoder (BCrypt)
+2025-04-03 11:41:28 - [main] - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 11:41:28 - [main] - INFO - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-03 11:41:29 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Configuring security filter chain
+2025-04-03 11:41:30 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 11:41:30 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 11:41:30 - [main] - INFO - c.b.userauth.LoginApplication - Started LoginApplication in 13.116 seconds (process running for 14.396)
+2025-04-03 11:56:10 - [SpringApplicationShutdownHook] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 11:56:10 - [tomcat-shutdown] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-03 11:56:10 - [SpringApplicationShutdownHook] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 11:56:10 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-03 11:56:10 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-03 11:56:19 - [main] - INFO - c.b.userauth.LoginApplication - Starting LoginApplication using Java 17.0.14 with PID 12844 (C:\Users\lenovo\Desktop\MyProjects\login\target\classes started by lenovo in C:\Users\lenovo\Desktop\MyProjects)
+2025-04-03 11:56:19 - [main] - DEBUG - c.b.userauth.LoginApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03 11:56:19 - [main] - INFO - c.b.userauth.LoginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-03 11:56:21 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 11:56:21 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 134 ms. Found 2 JPA repository interfaces.
+2025-04-03 11:56:22 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-03 11:56:22 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 11:56:22 - [main] - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-03 11:56:22 - [main] - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03 11:56:22 - [main] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-03 11:56:22 - [main] - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3193 ms
+2025-04-03 11:56:23 - [main] - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 11:56:23 - [main] - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03 11:56:23 - [main] - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-03 11:56:24 - [main] - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 11:56:24 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-03 11:56:24 - [main] - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7079f8f0
+2025-04-03 11:56:24 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-03 11:56:24 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 11:56:24 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-03 11:56:24 - [main] - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 11:56:26 - [main] - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 11:56:26 - [main] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 11:56:27 - [main] - DEBUG - c.b.userauth.jwtutils.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-04-03 11:56:27 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Initializing Password Encoder (BCrypt)
+2025-04-03 11:56:28 - [main] - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 11:56:28 - [main] - INFO - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-03 11:56:28 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Configuring security filter chain
+2025-04-03 11:56:28 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 11:56:28 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 11:56:28 - [main] - INFO - c.b.userauth.LoginApplication - Started LoginApplication in 10.339 seconds (process running for 11.762)
+2025-04-03 11:56:40 - [http-nio-8080-exec-3] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 11:56:40 - [http-nio-8080-exec-3] - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-03 11:56:40 - [http-nio-8080-exec-3] - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-03 11:56:40 - [http-nio-8080-exec-3] - ERROR - c.b.userauth.utils.LoggerUtil - Registration failed: Username already taken - admin
+2025-04-03 11:56:40 - [http-nio-8080-exec-3] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: Username already taken
+2025-04-03 11:57:07 - [http-nio-8080-exec-4] - ERROR - c.b.userauth.utils.LoggerUtil - Registration failed: Email already registered - admin@example.com
+2025-04-03 11:57:07 - [http-nio-8080-exec-4] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: Email already registered
+2025-04-03 11:57:16 - [http-nio-8080-exec-6] - INFO - c.b.userauth.utils.LoggerUtil - User registered successfully: tarun
+2025-04-03 11:57:16 - [http-nio-8080-exec-6] - INFO - c.b.userauth.utils.LoggerUtil - New user registered: tarun
+2025-04-03 11:57:16 - [http-nio-8080-exec-6] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: Cannot deserialize value of type `java.lang.String` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: UNKNOWN; byte offset: #UNKNOWN] (through reference chain: com.buddhaditya.userauth.entities.response.RegisterResponseDTO["roles"]->java.util.HashSet[0])
+2025-04-03 12:00:30 - [SpringApplicationShutdownHook] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 12:00:30 - [tomcat-shutdown] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-03 12:00:30 - [SpringApplicationShutdownHook] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 12:00:30 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-03 12:00:30 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-03 12:00:37 - [main] - INFO - c.b.userauth.LoginApplication - Starting LoginApplication using Java 17.0.14 with PID 500 (C:\Users\lenovo\Desktop\MyProjects\login\target\classes started by lenovo in C:\Users\lenovo\Desktop\MyProjects)
+2025-04-03 12:00:37 - [main] - DEBUG - c.b.userauth.LoginApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03 12:00:37 - [main] - INFO - c.b.userauth.LoginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-03 12:00:39 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 12:00:39 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135 ms. Found 2 JPA repository interfaces.
+2025-04-03 12:00:40 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-03 12:00:40 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 12:00:40 - [main] - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-03 12:00:40 - [main] - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03 12:00:40 - [main] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-03 12:00:40 - [main] - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3182 ms
+2025-04-03 12:00:41 - [main] - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 12:00:41 - [main] - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03 12:00:41 - [main] - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-03 12:00:41 - [main] - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 12:00:42 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-03 12:00:42 - [main] - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d585fb
+2025-04-03 12:00:42 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-03 12:00:42 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 12:00:42 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-03 12:00:42 - [main] - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 12:00:44 - [main] - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 12:00:44 - [main] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 12:00:45 - [main] - DEBUG - c.b.userauth.jwtutils.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-04-03 12:00:45 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Initializing Password Encoder (BCrypt)
+2025-04-03 12:00:45 - [main] - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 12:00:46 - [main] - INFO - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-03 12:00:46 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Configuring security filter chain
+2025-04-03 12:00:46 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 12:00:46 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 12:00:46 - [main] - INFO - c.b.userauth.LoginApplication - Started LoginApplication in 10.235 seconds (process running for 11.763)
+2025-04-03 12:01:47 - [SpringApplicationShutdownHook] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 12:01:47 - [tomcat-shutdown] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-03 12:01:47 - [SpringApplicationShutdownHook] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 12:01:47 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-03 12:01:47 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-03 12:01:51 - [main] - INFO - c.b.userauth.LoginApplication - Starting LoginApplication using Java 17.0.14 with PID 8640 (C:\Users\lenovo\Desktop\MyProjects\login\target\classes started by lenovo in C:\Users\lenovo\Desktop\MyProjects)
+2025-04-03 12:01:51 - [main] - DEBUG - c.b.userauth.LoginApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03 12:01:51 - [main] - INFO - c.b.userauth.LoginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-03 12:01:53 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 12:01:53 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 160 ms. Found 2 JPA repository interfaces.
+2025-04-03 12:01:54 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-03 12:01:54 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 12:01:54 - [main] - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-03 12:01:54 - [main] - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03 12:01:55 - [main] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-03 12:01:55 - [main] - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3359 ms
+2025-04-03 12:01:55 - [main] - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 12:01:55 - [main] - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03 12:01:55 - [main] - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-03 12:01:56 - [main] - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 12:01:56 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-03 12:01:57 - [main] - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1884e671
+2025-04-03 12:01:57 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-03 12:01:57 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 12:01:57 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-03 12:01:57 - [main] - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 12:01:59 - [main] - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 12:01:59 - [main] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 12:01:59 - [main] - DEBUG - c.b.userauth.jwtutils.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-04-03 12:01:59 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Initializing Password Encoder (BCrypt)
+2025-04-03 12:02:00 - [main] - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 12:02:00 - [main] - INFO - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-03 12:02:00 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Configuring security filter chain
+2025-04-03 12:02:01 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 12:02:01 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 12:02:01 - [main] - INFO - c.b.userauth.LoginApplication - Started LoginApplication in 10.384 seconds (process running for 11.559)
+2025-04-03 12:02:07 - [http-nio-8080-exec-3] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 12:02:07 - [http-nio-8080-exec-3] - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-03 12:02:07 - [http-nio-8080-exec-3] - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-03 12:02:07 - [http-nio-8080-exec-3] - ERROR - c.b.userauth.utils.LoggerUtil - Registration failed: Username already taken - tarun
+2025-04-03 12:02:07 - [http-nio-8080-exec-3] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: Username already taken
+2025-04-03 12:02:30 - [http-nio-8080-exec-4] - INFO - c.b.userauth.utils.LoggerUtil - User registered successfully: hari
+2025-04-03 12:02:30 - [http-nio-8080-exec-4] - INFO - c.b.userauth.utils.LoggerUtil - New user registered: hari
+2025-04-03 12:03:04 - [http-nio-8080-exec-5] - INFO - c.b.userauth.utils.LoggerUtil - Loading user by username: hari
+2025-04-03 12:03:05 - [http-nio-8080-exec-5] - ERROR - c.b.userauth.utils.LoggerUtil - Login failed for user: hari - Bad credentials
+2025-04-03 12:03:27 - [http-nio-8080-exec-6] - ERROR - c.b.userauth.utils.LoggerUtil - Registration failed: Username already taken - hari
+2025-04-03 12:03:27 - [http-nio-8080-exec-6] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: Username already taken
+2025-04-03 12:03:39 - [http-nio-8080-exec-8] - INFO - c.b.userauth.utils.LoggerUtil - Loading user by username: hari
+2025-04-03 12:03:39 - [http-nio-8080-exec-8] - INFO - c.b.userauth.utils.LoggerUtil - User logged in successfully: hari
+2025-04-03 12:13:42 - [SpringApplicationShutdownHook] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 12:13:42 - [tomcat-shutdown] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-03 12:13:42 - [SpringApplicationShutdownHook] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 12:13:42 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-03 12:13:42 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-03 12:13:49 - [main] - INFO - c.b.userauth.LoginApplication - Starting LoginApplication using Java 17.0.14 with PID 19264 (C:\Users\lenovo\Desktop\MyProjects\login\target\classes started by lenovo in C:\Users\lenovo\Desktop\MyProjects)
+2025-04-03 12:13:49 - [main] - DEBUG - c.b.userauth.LoginApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03 12:13:49 - [main] - INFO - c.b.userauth.LoginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-03 12:13:51 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 12:13:51 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 147 ms. Found 2 JPA repository interfaces.
+2025-04-03 12:13:53 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-03 12:13:53 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 12:13:53 - [main] - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-03 12:13:53 - [main] - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03 12:13:53 - [main] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-03 12:13:53 - [main] - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3307 ms
+2025-04-03 12:13:53 - [main] - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 12:13:53 - [main] - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03 12:13:53 - [main] - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-03 12:13:54 - [main] - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 12:13:54 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-03 12:13:55 - [main] - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e886caf
+2025-04-03 12:13:55 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-03 12:13:55 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 12:13:55 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-03 12:13:55 - [main] - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 12:13:57 - [main] - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 12:13:57 - [main] - WARN - o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "alter table user_roles add constraint FKhfh9dx7w3ubf1co1vdev94g3f foreign key (user_id) references users (id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`userlogin`.`#sql-15bc_15d`, CONSTRAINT `FKhfh9dx7w3ubf1co1vdev94g3f` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table user_roles add constraint FKhfh9dx7w3ubf1co1vdev94g3f foreign key (user_id) references users (id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`userlogin`.`#sql-15bc_15d`, CONSTRAINT `FKhfh9dx7w3ubf1co1vdev94g3f` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:448)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:269)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1711)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1609)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.buddhaditya.userauth.LoginApplication.main(LoginApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`userlogin`.`#sql-15bc_15d`, CONSTRAINT `FKhfh9dx7w3ubf1co1vdev94g3f` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 121 common frames omitted
+2025-04-03 12:13:57 - [main] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 12:13:58 - [main] - DEBUG - c.b.userauth.jwtutils.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-04-03 12:13:58 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Initializing Password Encoder (BCrypt)
+2025-04-03 12:13:58 - [main] - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 12:13:58 - [main] - INFO - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-03 12:13:59 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Configuring security filter chain
+2025-04-03 12:13:59 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 12:13:59 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 12:13:59 - [main] - INFO - c.b.userauth.LoginApplication - Started LoginApplication in 10.69 seconds (process running for 11.958)
+2025-04-03 12:14:32 - [http-nio-8080-exec-1] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 12:14:32 - [http-nio-8080-exec-1] - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-03 12:14:32 - [http-nio-8080-exec-1] - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-04-03 12:14:32 - [http-nio-8080-exec-1] - WARN - o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2025-04-03 12:14:32 - [http-nio-8080-exec-1] - ERROR - o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '1-1' for key 'user_roles.PRIMARY'
+2025-04-03 12:14:32 - [http-nio-8080-exec-1] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: could not execute statement [Duplicate entry '1-1' for key 'user_roles.PRIMARY'] [insert into user_roles (user_id,role_id) values (?,?)]; SQL [insert into user_roles (user_id,role_id) values (?,?)]; constraint [user_roles.PRIMARY]
+2025-04-03 12:15:30 - [http-nio-8080-exec-4] - WARN - o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2025-04-03 12:15:30 - [http-nio-8080-exec-4] - ERROR - o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '2-1' for key 'user_roles.PRIMARY'
+2025-04-03 12:15:30 - [http-nio-8080-exec-4] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: could not execute statement [Duplicate entry '2-1' for key 'user_roles.PRIMARY'] [insert into user_roles (user_id,role_id) values (?,?)]; SQL [insert into user_roles (user_id,role_id) values (?,?)]; constraint [user_roles.PRIMARY]
+2025-04-03 12:15:47 - [http-nio-8080-exec-5] - WARN - o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2025-04-03 12:15:47 - [http-nio-8080-exec-5] - ERROR - o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '3-1' for key 'user_roles.PRIMARY'
+2025-04-03 12:15:47 - [http-nio-8080-exec-5] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: could not execute statement [Duplicate entry '3-1' for key 'user_roles.PRIMARY'] [insert into user_roles (user_id,role_id) values (?,?)]; SQL [insert into user_roles (user_id,role_id) values (?,?)]; constraint [user_roles.PRIMARY]
+2025-04-03 12:17:16 - [http-nio-8080-exec-8] - WARN - o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2025-04-03 12:17:16 - [http-nio-8080-exec-8] - ERROR - o.h.e.jdbc.spi.SqlExceptionHelper - Table 'userlogin.users' doesn't exist
+2025-04-03 12:17:16 - [http-nio-8080-exec-8] - ERROR - c.b.userauth.utils.LoggerUtil - Error during registration: JDBC exception executing SQL [select u1_0.id,u1_0.address,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.gender,u1_0.last_name,u1_0.occupation,u1_0.password,u1_0.phone,u1_0.updated_at,u1_0.username from users u1_0 where u1_0.username=?] [Table 'userlogin.users' doesn't exist] [n/a]; SQL [n/a]
+2025-04-03 12:17:27 - [SpringApplicationShutdownHook] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 12:17:27 - [tomcat-shutdown] - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-03 12:17:27 - [SpringApplicationShutdownHook] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 12:17:27 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-03 12:17:28 - [SpringApplicationShutdownHook] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-03 12:17:35 - [main] - INFO - c.b.userauth.LoginApplication - Starting LoginApplication using Java 17.0.14 with PID 11148 (C:\Users\lenovo\Desktop\MyProjects\login\target\classes started by lenovo in C:\Users\lenovo\Desktop\MyProjects)
+2025-04-03 12:17:35 - [main] - DEBUG - c.b.userauth.LoginApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03 12:17:35 - [main] - INFO - c.b.userauth.LoginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-03 12:17:37 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03 12:17:37 - [main] - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 140 ms. Found 2 JPA repository interfaces.
+2025-04-03 12:17:38 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-03 12:17:38 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-03 12:17:38 - [main] - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-03 12:17:38 - [main] - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03 12:17:38 - [main] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-03 12:17:38 - [main] - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3363 ms
+2025-04-03 12:17:39 - [main] - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03 12:17:39 - [main] - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03 12:17:39 - [main] - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-03 12:17:40 - [main] - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03 12:17:40 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-03 12:17:40 - [main] - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fee14b
+2025-04-03 12:17:40 - [main] - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-03 12:17:40 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03 12:17:40 - [main] - WARN - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-03 12:17:40 - [main] - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03 12:17:42 - [main] - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03 12:17:42 - [main] - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 12:17:43 - [main] - DEBUG - c.b.userauth.jwtutils.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2025-04-03 12:17:43 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Initializing Password Encoder (BCrypt)
+2025-04-03 12:17:44 - [main] - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03 12:17:44 - [main] - INFO - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-03 12:17:44 - [main] - INFO - c.b.userauth.utils.LoggerUtil - Configuring security filter chain
+2025-04-03 12:17:44 - [main] - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-03 12:17:44 - [main] - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-03 12:17:44 - [main] - INFO - c.b.userauth.LoginApplication - Started LoginApplication in 10.41 seconds (process running for 11.727)
+2025-04-03 12:18:52 - [http-nio-8080-exec-2] - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03 12:18:52 - [http-nio-8080-exec-2] - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-03 12:18:52 - [http-nio-8080-exec-2] - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-03 12:18:53 - [http-nio-8080-exec-2] - INFO - c.b.userauth.utils.LoggerUtil - User registered successfully: haarsh
+2025-04-03 12:18:53 - [http-nio-8080-exec-2] - INFO - c.b.userauth.utils.LoggerUtil - New user registered: haarsh
